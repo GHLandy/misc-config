@@ -1,0 +1,31 @@
+{
+  "name": "@ghlandy/prettier-config",
+  "version": "0.1.0",
+  "description": "prettier-config",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "GHLandy",
+    "email": "liftland953@163.com"
+  },
+  "main": ".prettierrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.8.1",
+    "prettier-plugin-organize-imports": "^3.2.1",
+    "prettier-plugin-packagejson": "^2.3.0",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.1",
+    "prettier-plugin-organize-imports": "^3.2.1",
+    "prettier-plugin-packagejson": "^2.3.0",
+    "typescript": "^4.9.4"
+  }
+}

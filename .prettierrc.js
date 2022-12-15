@@ -1,16 +1,5 @@
+const config = require('@ghlandy/prettier-config');
+
 module.exports = {
-  printWidth: 100,
-  tabWidth: 2,
-  useTabs: false,
-  semi: true,
-  singleQuote: true,
-  quoteProps: 'as-needed',
-  jsxSingleQuote: false,
-  trailingComma: 'all',
-  bracketSpacing: true,
-  bracketSameLine: false,
-  arrowParens: 'always',
-  vueIndentScriptAndStyle: false,
-  endOfLine: 'lf',
-  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
+  ...config,
 };

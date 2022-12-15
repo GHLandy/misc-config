@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "description": "misc config",
-  "keywords": [],
+  "keywords": [
+    "config"
+  ],
   "license": "MIT",
   "author": {
     "name": "GHLandy",
@@ -20,8 +22,8 @@
       "prettier -c -w"
     ]
   },
-  "dependencies": {},
   "devDependencies": {
+    "@ghlandy/prettier-config": "workspace:^0.1.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.1",
