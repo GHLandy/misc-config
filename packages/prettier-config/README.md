@@ -41,4 +41,4 @@ module.exports = {
 
 ## License
 
-[MIT](../../LICENSE.md)
+[MIT](https://github.com/GHLandy/misc-config/blob/main/LICENSE.md)

@@ -10,4 +10,4 @@ misc config
 
 ## License
 
-[MIT](./LICENSE.md)
+[MIT](https://github.com/GHLandy/misc-config/blob/main/LICENSE.md)
