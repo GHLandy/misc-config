@@ -24,11 +24,16 @@
   },
   "devDependencies": {
     "@ghlandy/prettier-config": "workspace:^0.1.0",
+    "@types/node": "^16.0.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.0",
     "prettier-plugin-organize-imports": "^3.2.1",
     "prettier-plugin-packagejson": "^2.3.0",
-    "typescript": "^4.9.0"
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
   }
 }
