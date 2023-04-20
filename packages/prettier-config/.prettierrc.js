@@ -10,6 +10,7 @@ module.exports = {
   bracketSpacing: true,
   bracketSameLine: false,
   arrowParens: 'always',
+  htmlWhitespaceSensitivity: 'ignore',
   vueIndentScriptAndStyle: false,
   endOfLine: 'lf',
   plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
