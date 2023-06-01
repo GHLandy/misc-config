@@ -6,7 +6,7 @@
 pnpm i -D @ghlandy/prettier-config
 ```
 
-> 在 prettier 配置文件中引入使用 `.prettierrc.js`
+> 在 prettier 配置文件 (`.prettierrc.cjs` 或 `.prettierrc.js`) 中引入使用
 
 ```js
 const config = require('@ghlandy/prettier-config');
@@ -18,7 +18,8 @@ module.exports = {
 
 ## 本配置详细为
 
-> 包含自动排序导入的包，自动排序 JSON 字段
+> 包含自动排序 import，自动排序 JSON 字段
+> vue 里边的自动排序 import，还需要按 `@volar/vue-typescript`
 
 ```js
 module.exports = {

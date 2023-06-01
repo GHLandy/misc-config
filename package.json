@@ -23,7 +23,7 @@
     ]
   },
   "devDependencies": {
-    "@ghlandy/prettier-config": "workspace:^0.3.0",
+    "@ghlandy/prettier-config": "workspace:^",
     "@types/node": "^16.0.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",

@@ -1,11 +1,15 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 importers:
 
   .:
     devDependencies:
       '@ghlandy/prettier-config':
-        specifier: workspace:^0.3.0
+        specifier: workspace:^
         version: link:packages/prettier-config
       '@types/node':
         specifier: ^16.0.0
