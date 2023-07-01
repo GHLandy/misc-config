@@ -1,9 +1,11 @@
 # @ghlandy/prettier-config
 
-## 安装及使用
+## 使用
 
 ```bash
-pnpm i -D @ghlandy/prettier-config
+pnpm i -D @ghlandy/prettier-config prettier
+pnpm i -D prettier-plugin-organize-imports typescript prettier-plugin-packagejson
+pnpm i -D @volar/vue-typescript # 格式化 .vue 文件内的 import 时需要
 ```
 
 > 在 prettier 配置文件 (`.prettierrc.cjs` 或 `.prettierrc.js`) 中引入使用
@@ -16,10 +18,7 @@ module.exports = {
 };
 ```
 
-## 本配置详细为
-
-> 包含自动排序 import，自动排序 JSON 字段
-> vue 里边的自动排序 import，还需要按 `@volar/vue-typescript`
+## 配置详细
 
 ```js
 module.exports = {
@@ -40,6 +39,12 @@ module.exports = {
   plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
 };
 ```
+
+> `prettier-plugin-organize-imports` 自动排序 `import` (需要 `typescript` 依赖包)
+>
+> `.vue` 文件里边的自动排序 `import`，还需要按 `@volar/vue-typescript`
+>
+> `prettier-plugin-packagejson` 自动排序 JSON
 
 ## License
 

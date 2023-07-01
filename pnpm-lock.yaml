@@ -25,13 +25,13 @@ importers:
         version: 2.8.1
       prettier-plugin-organize-imports:
         specifier: ^3.2.1
-        version: 3.2.1(prettier@2.8.1)(typescript@4.9.4)
+        version: 3.2.1(prettier@2.8.1)(typescript@5.1.6)
       prettier-plugin-packagejson:
         specifier: ^2.3.0
         version: 2.3.0(prettier@2.8.1)
       typescript:
-        specifier: ^4.9.4
-        version: 4.9.4
+        specifier: ^5.1.6
+        version: 5.1.6
 
   packages/prettier-config:
     devDependencies:
@@ -40,13 +40,13 @@ importers:
         version: 2.8.1
       prettier-plugin-organize-imports:
         specifier: ^3.2.1
-        version: 3.2.1(prettier@2.8.1)(typescript@4.9.4)
+        version: 3.2.1(prettier@2.8.1)(typescript@5.1.6)
       prettier-plugin-packagejson:
         specifier: ^2.3.0
         version: 2.3.0(prettier@2.8.1)
       typescript:
-        specifier: ^4.6.4
-        version: 4.9.4
+        specifier: ^5.1.6
+        version: 5.1.6
 
 packages:
 
@@ -582,7 +582,7 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier-plugin-organize-imports@3.2.1(prettier@2.8.1)(typescript@4.9.4):
+  /prettier-plugin-organize-imports@3.2.1(prettier@2.8.1)(typescript@5.1.6):
     resolution: {integrity: sha512-bty7C2Ecard5EOXirtzeCAqj4FU4epeuWrQt/Z+sh8UVEpBlBZ3m3KNPz2kFu7KgRTQx/C9o4/TdquPD1jOqjQ==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -596,7 +596,7 @@ packages:
         optional: true
     dependencies:
       prettier: 2.8.1
-      typescript: 4.9.4
+      typescript: 5.1.6
     dev: true
 
   /prettier-plugin-packagejson@2.3.0(prettier@2.8.1):
@@ -775,9 +775,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript@4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
