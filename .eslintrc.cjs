@@ -6,7 +6,7 @@ module.exports = {
     node: true,
   },
   globals: {},
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', '@ghlandy/eslint-config-prettier'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
