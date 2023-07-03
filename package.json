@@ -13,13 +13,13 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "lint": "eslint --fix \"**/*.{cjs,js,jsx,ts,tsx,vue}\"",
+    "lint": "eslint --fix \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}\"",
     "prepare": "husky install",
     "prettier": "prettier -c -w .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
-    "**/*.{cjs,js,jsx,ts,tsx,vue}": [
+    "**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}": [
       "eslint",
       "prettier -c -w"
     ],
@@ -35,8 +35,6 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.0",
-    "prettier-plugin-organize-imports": "^3.2.1",
-    "prettier-plugin-packagejson": "^2.3.0",
     "typescript": "^5.1.6"
   },
   "engines": {
