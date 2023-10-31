@@ -3,8 +3,8 @@
 ## 使用
 
 ```bash
-pnpm i -D @ghlandy/eslint-config-prettier eslint prettier
-pnpm i -D eslint-config-prettier eslint-plugin-prettier
+pnpm i -D @ghlandy/eslint-config-prettier eslint@8 prettier@2
+pnpm i -D eslint-config-prettier@8 eslint-plugin-prettier@4
 ```
 
 > 在 eslint 配置文件 (`.eslintrc.cjs` 或 `.eslintrc.js`) 中引入使用
