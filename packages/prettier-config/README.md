@@ -3,8 +3,8 @@
 ## 使用
 
 ```bash
-pnpm i -D @ghlandy/prettier-config prettier@2
-pnpm i -D prettier-plugin-organize-imports@3 typescript prettier-plugin-packagejson@2
+pnpm i -D @ghlandy/prettier-config prettier
+pnpm i -D prettier-plugin-organize-imports typescript prettier-plugin-packagejson
 pnpm i -D @volar/vue-typescript # 格式化 .vue 文件内的 import 时需要
 ```
 
