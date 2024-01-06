@@ -1,6 +1,7 @@
 # misc-config
 
-misc config
+misc config, using [unbuild](https://www.npmjs.com/package/unbuild), [turbo](https://turbo.build/repo/docs)
+and [pnpm](https://pnpm.io/zh/) for development.
 
 ## @ghlandy/prettier-config
 
