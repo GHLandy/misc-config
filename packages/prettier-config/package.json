@@ -1,6 +1,6 @@
 {
   "name": "@ghlandy/prettier-config",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "prettier-config",
   "keywords": [
     "prettier",
@@ -11,9 +11,22 @@
     "name": "GHLandy",
     "email": "liftland953@163.com"
   },
-  "main": ".prettierrc.cjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "unbuild",
+    "prepublishOnly": "unbuild",
+    "stub": "unbuild --stub"
   },
   "devDependencies": {
     "prettier": "^3.1.1",

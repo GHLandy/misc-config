@@ -13,6 +13,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "postinstall": "turbo stub",
     "lint": "eslint --fix \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}\"",
     "prepare": "husky install",
     "prettier": "prettier -c -w .",
@@ -35,7 +36,9 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "^3.1.1",
-    "typescript": "^5.1.6"
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
   },
   "engines": {
     "node": ">=18",
