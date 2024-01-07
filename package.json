@@ -6,10 +6,20 @@
   "keywords": [
     "config"
   ],
+  "homepage": "https://github.com/GHLandy/misc-config",
+  "bugs": {
+    "url": "https://github.com/GHLandy/misc-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GHLandy/misc-config.git",
+    "directory": "packages/prettier-config"
+  },
   "license": "MIT",
   "author": {
     "name": "GHLandy",
-    "email": "liftland953@163.com"
+    "email": "liftland953@163.com",
+    "url": "https://github.com/GHLandy"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -31,7 +41,7 @@
   "devDependencies": {
     "@ghlandy/eslint-config-prettier": "workspace:^",
     "@ghlandy/prettier-config": "workspace:^",
-    "@types/node": "^16.0.0",
+    "@types/node": "^18.0.0",
     "eslint": "^8.44.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",

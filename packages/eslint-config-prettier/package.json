@@ -1,16 +1,26 @@
 {
   "name": "@ghlandy/eslint-config-prettier",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "eslint-config-prettier",
   "keywords": [
     "eslint",
     "config",
     "prettier"
   ],
+  "homepage": "https://github.com/GHLandy/misc-config",
+  "bugs": {
+    "url": "https://github.com/GHLandy/misc-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GHLandy/misc-config.git",
+    "directory": "packages/eslint-config-prettier"
+  },
   "license": "MIT",
   "author": {
     "name": "GHLandy",
-    "email": "liftland953@163.com"
+    "email": "liftland953@163.com",
+    "url": "https://github.com/GHLandy"
   },
   "type": "module",
   "exports": {

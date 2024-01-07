@@ -1,15 +1,25 @@
 {
   "name": "@ghlandy/prettier-config",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "prettier-config",
   "keywords": [
     "prettier",
     "config"
   ],
+  "homepage": "https://github.com/GHLandy/misc-config",
+  "bugs": {
+    "url": "https://github.com/GHLandy/misc-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GHLandy/misc-config.git",
+    "directory": "packages/prettier-config"
+  },
   "license": "MIT",
   "author": {
     "name": "GHLandy",
-    "email": "liftland953@163.com"
+    "email": "liftland953@163.com",
+    "url": "https://github.com/GHLandy"
   },
   "type": "module",
   "exports": {
